@@ -1,0 +1,6 @@
+directive @_def(var: String!) repeatable on FIELD
+directive @_dom_attr(name: String!) repeatable on FIELD
+directive @_dom_closet(select: String!) repeatable on FIELD
+directive @_dom_get(idx: Int) repeatable on FIELD
+directive @_dom_query(select: String!) repeatable on FIELD
+directive @_string_replace(from: String, fromR: String, to: String!) repeatable on FIELD
